@@ -60,6 +60,7 @@ function run(args) {
     if (args.watch) {
         
         var watcher = new SWatcher(builder, {
+            watchman: true,
             debounce: args.debounce || 100,
             filter: function(name) { return /^([^\.]|node_modules)/.test(name); }
         });
