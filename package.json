@@ -30,7 +30,7 @@
     "minimist": "1.1.1",
     "rimraf": "~2.2.8",
     "chalk": "~0.5.1",
-    "broccoli": "~0.13.3"
+    "broccoli": "0.16.4"
   },
     
   "homepage": "https://github.com/apezel/broccoli-clext",
